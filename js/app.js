@@ -41,7 +41,7 @@ const eventTypes = [
 		standout: false,
 		premium: false
 	}
-]
+];
 
 const events = [
 	{
@@ -260,7 +260,7 @@ const handleApplyNow = (id, e) => {
 			}
 		);
 	}
-}
+};
 
 const handleSeeMore = (id, e) => {
 	e.preventDefault();
@@ -321,7 +321,7 @@ const handleSeeMore = (id, e) => {
 			}
 		);
 	}
-}
+};
 // ------------------------------------
 
 /*
