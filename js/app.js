@@ -287,12 +287,10 @@ const handleSeeMore = (id, e) => {
 
 						<div class="description">
 							${
-								image ? (
+								image && (
 									`
 										<img src=${image} class="bordered" alt="Event Image">
 									`
-								) : (
-									''
 								)
 							}
 							<span class="text">${description || ''}</span>
@@ -372,14 +370,12 @@ const startApp = () => {
 				</div>
 
 				${
-					image ? (
+					image && (
 						`
 							<div class="image">
 								<img src=${image} class="bordered" alt="Event Image">
 							</div>
 						`
-					) : (
-						''
 					)
 				}
 
